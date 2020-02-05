@@ -1,0 +1,185 @@
+@charset "utf-8";
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #3B3B3B;
+	font-family: monospace;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 99hv;
+}
+.nav{
+	position: relative;
+	max-width: 100%;
+	padding: 10px;
+	margin: 20px 30px;
+	box-sizing: border-box;
+}
+.menu{
+	float: right;
+}
+.fix{
+	clear: both;
+}
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+.menu ul li{
+	list-style: none;
+}
+.menu ul li a{
+	display: block;
+	margin: 10px 0px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+
+
+.list ul{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+.list ul li{
+	list-style: none;
+}
+.list ul li a{
+	display: block;
+	margin: 10px 0px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+.content{
+	position: relative;
+	max-width:100%;
+	margin:90px 30px 30px;
+}
+.pic{
+	position: absolute;
+	top:0px;
+	left: 70%;
+	height: 400px;
+	width: auto;
+}
+.pic img{
+	max-width: 100%;
+	max-height: 100%;
+}
+h1{
+	font-weight: bold;
+	margin: 0px;
+	color: #FFFFFF;
+}
+p{
+	font-size: 14px;
+	font-weight:100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	color: rgba(188,188,188,1.00);
+}
+.hobbies{
+	left: 0px;
+	width: 62%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 496px;
+}
+.mblist ol{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+.mblist ol li{
+	list-style: none;
+}
+.mblist ol li a{
+	display: block;
+	margin: 10px 0px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+#slider{
+	overflow: hidden;
+}
+#slider figure{
+	position: relative;
+	width: 100%;
+	margin: 0;
+	left: 0;
+}
+#slider figure img{
+	width: 20%;
+	float: left;
+}
+.content2{
+	position: relative;
+	max-width:100%;
+	margin:90px 30px 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.table-box
+{
+    margin: 50px auto;
+}
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background: #282923;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+.last-cell{
+    border-right: none;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 11px;
+  }
+}
